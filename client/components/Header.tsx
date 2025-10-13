@@ -51,7 +51,7 @@ export function Header() {
         {/* Logo */}
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/a8c35d855776b5f15b2947c7e6d06827e6258db0?width=178"
+            src="public/logo.jpg"
             alt="Pudgy Penguins"
             className="w-[89px] h-[74px]"
           />
