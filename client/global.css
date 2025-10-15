@@ -32,7 +32,7 @@
     --muted-foreground: 217 33% 25%;
 
     --accent: 25 97% 50%; /* Vibrant orange from tassel and decorations */
-    --accent-foreground: 217 33% 15%;
+    --accent-foreground: 0 0% 100%; /* Changed to white for better contrast on orange */
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
@@ -41,14 +41,14 @@
     --input: 217 33% 90%;
     --ring: 217 33% 25%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem; /* Slightly larger radius for softer, friendlier look */
 
     --sidebar-background: 217 33% 95%;
     --sidebar-foreground: 217 33% 15%;
     --sidebar-primary: 217 33% 25%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 25 97% 50%;
-    --sidebar-accent-foreground: 217 33% 15%;
+    --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 217 33% 85%;
     --sidebar-ring: 25 97% 50%;
   }
@@ -73,7 +73,7 @@
     --muted-foreground: 215 20% 65%;
 
     --accent: 25 97% 50%;
-    --accent-foreground: 217 33% 15%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62% 30%;
     --destructive-foreground: 210 40% 98%;
@@ -100,5 +100,44 @@
 
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Custom scrollbar for playful touch */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-accent rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent/80;
+  }
+}
+
+@layer components {
+  /* Custom button styles for Chunky Doges */
+  .btn-primary {
+    @apply bg-accent text-accent-foreground px-6 py-3 rounded-full font-semibold hover:bg-accent/90 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl;
+  }
+
+  .btn-secondary {
+    @apply bg-primary text-primary-foreground px-6 py-3 rounded-full font-semibold hover:bg-primary/90 transition-all duration-200 transform hover:scale-105;
+  }
+
+  /* Card styles */
+  .chunky-card {
+    @apply bg-card border border-border rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-300;
+  }
+
+  /* Section padding consistency */
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
   }
 }
