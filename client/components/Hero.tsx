@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="relative h-[1156px] bg-gradient-to-b from-[#2B90CC] via-[#2B90CC] via-70% to-transparent overflow-hidden">
+    <section className="relative h-[1156px] pt-[137px] bg-secondary overflow-hidden">
       {/* Background Image */}
-      <img
+      {/* <img
         src="https://api.builder.io/api/v1/image/assets/TEMP/2bd024a2db09665a324f5f9b615216dc46ed0bd7?width=3000"
         alt=""
         className="absolute top-[312px] left-0 w-full max-w-[1500px] h-[844px] object-cover"
-      />
+      /> */}
 
       {/* Penguin Scene */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[1078px] h-[539px] px-4">
