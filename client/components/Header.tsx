@@ -64,7 +64,7 @@ export function Header() {
         {/* Logo */}
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <img
-            src="public/logo.jpg"
+            src="logo.png"
             alt="Chunky Doges"
             className="w-[60px] h-[50px] sm:w-[75px] h-[62px] md:w-[89px] h-[74px]"
           />
