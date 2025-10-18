@@ -5,17 +5,27 @@ const Tiles = () => {
   return (
     <section className="border-t-4 border-black flex flex-col lg:flex-row">
       {/* The Pengu Prophecy */}
-      <div className="relative bg-[#FFE0B2] lg:w-1/2 border-r-4 border-black p-12 lg:p-[173px] min-h-[687px] flex flex-col justify-between overflow-hidden">
-        <motion.img
+      <div className="relative bg-[#FFE0B2] lg:w-1/2 border-r-4 border-black p-12 lg:p-16  min-h-[600px] flex flex-col justify-start sm:justify-between overflow-hidden">
+        <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          src="https://api.builder.io/api/v1/image/assets/TEMP/4d2067a93c116b8e02ff63efdcc48951966f147a?width=1027"
-          alt="The Pengu Prophecy"
           className="w-full max-w-[513px]"
-        />
-        <div className="mt-8">
+        >
+          <h2
+            className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[80px]  font-extrabold uppercase text-left tracking-tighter leading-none"
+            style={{
+              color: "white",
+              WebkitTextStroke: "3px black", // outline
+              textStroke: "3px black", // fallback
+            }}
+          >
+            the chunky prophecy
+          </h2>
+
+        </motion.div>
+        <div className="mt-8 ">
           <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[28px] mb-8">
             Learn about the chunky lore
           </p>
@@ -45,16 +55,25 @@ const Tiles = () => {
       </div>
 
       {/* Shop Toys & Figurines */}
-      <div className="relative bg-[#FFDBDB] lg:w-1/2 p-12 lg:p-16 min-h-[687px] flex flex-col justify-between overflow-hidden">
-        <motion.img
+      <div className="relative bg-[#FFDBDB] lg:w-1/2 p-12 lg:p-16 min-h-[600px] flex flex-col justify-start sm:justify-between overflow-hidden">
+        <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          src="https://api.builder.io/api/v1/image/assets/TEMP/cf24847cb963669e511faf8664663043647ecc38?width=989"
-          alt="Shop Toys & Figurines"
           className="w-full max-w-[494px]"
-        />
+        >
+          <h2
+            className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[80px] border font-extrabold uppercase text-left tracking-tighter leading-none"
+            style={{
+              color: "white",
+              WebkitTextStroke: "3px black", // outline
+              textStroke: "3px black", // fallback
+            }}
+          >
+            shop toys & figurines
+          </h2>
+        </motion.div>
         <div className="mt-8">
           <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[28px] mb-8">
             Start your collection today!
