@@ -10,19 +10,24 @@ const Slider = () => {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-pudgy-cream rounded-[25px] border-4 border-pudgy-navy p-12 relative overflow-hidden"
+          className="bg-pudgy-cream flex justify-between flex-col rounded-[25px] border-4 border-pudgy-navy p-12 relative overflow-hidden"
         >
-          <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/fdace4860fd862210bc81e705962de5c93839608?width=706"
-            alt="Pudgy Media"
-            className="w-full max-w-[353px] mb-8"
-          />
-          <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[29px] mb-8">
+          <h2
+            className="text-[32px] sm:text-[40px] md:text-[60px]  font-extrabold uppercase text-left tracking-tight leading-none"
+            style={{
+              color: "white",
+              WebkitTextStroke: "3px black", // outline
+              textStroke: "3px black", // fallback
+            }}
+          >
+            Chunky Kindness
+          </h2>
+          <p className="text-pudgy-navy font-inter text-[17px] mt-6 uppercase leading-[29px] mb-8">
             Inspire, Participate, and create with
             <br />
             your fellow chunky.
           </p>
-          <button className="group relative">
+          <button className="group w-max relative">
             <div className="absolute inset-0 rounded-full border-2 border-pudgy-navy bg-pudgy-blue-bright translate-x-0 translate-y-1" />
             <div className="relative flex items-center gap-4 px-6 py-4 rounded-full border-2 border-pudgy-navy bg-white hover:-translate-y-1 transition-transform">
               <div className="w-[54px] h-[22px] relative">
@@ -34,7 +39,7 @@ const Slider = () => {
                 </svg>
               </div>
               <span className="text-pudgy-navy font-serif text-[18px] font-bold uppercase leading-[30px]">
-                View chunky Media
+                View Media
               </span>
             </div>
           </button>
@@ -51,19 +56,24 @@ const Slider = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="bg-pudgy-sky rounded-[25px] border-4 border-pudgy-navy p-12 relative overflow-hidden"
+          className="bg-pudgy-sky rounded-[25px] flex flex-col justify-between border-4 border-pudgy-navy p-12 relative overflow-hidden"
         >
-          <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/91e7871f60800a470b64bc15db1796103ee271f9?width=897"
-            alt="Pudgy Discord"
-            className="w-full max-w-[449px] mb-8"
-          />
-          <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[29px] mb-8">
+          <h2
+            className="text-[32px] sm:text-[40px] md:text-[60px]  font-extrabold uppercase text-left tracking-tight leading-none"
+            style={{
+              color: "white",
+              WebkitTextStroke: "3px black", // outline
+              textStroke: "3px black", // fallback
+            }}
+          >
+            Chunky Discord
+          </h2>
+          <p className="text-pudgy-navy mt-6 font-inter text-[17px] uppercase leading-[29px] mb-8">
             A hangout spot for all Doges.
             <br />
             Join to chill with the Chunky Pack.
           </p>
-          <button className="group relative">
+          <button className="group w-max relative">
             <div className="absolute inset-0 rounded-full border-2 border-pudgy-navy bg-pudgy-blue-bright translate-x-0 translate-y-1" />
             <div className="relative flex items-center gap-4 px-6 py-4 rounded-full border-2 border-pudgy-navy bg-white hover:-translate-y-1 transition-transform">
               <div className="w-[54px] h-[22px] relative">
@@ -93,20 +103,25 @@ const Slider = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.2 }}
-        className="bg-[#FBE9F3] rounded-[25px] border-4 border-pudgy-navy p-12 max-w-[1070px] mx-auto relative overflow-hidden"
+        className="bg-[#FBE9F3] rounded-[25px] flex flex-col justify-between border-4 border-pudgy-navy p-12 max-w-[1070px] mx-auto relative overflow-hidden"
       >
-        <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/fdace4860fd862210bc81e705962de5c93839608?width=706"
-          alt="Pengu Kindness"
-          className="w-full max-w-[353px] mb-8"
-        />
-        <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[29px] mb-8">
+        <h2
+            className="text-[32px] sm:text-[40px] md:text-[60px]  font-extrabold uppercase text-left tracking-tight leading-none"
+            style={{
+              color: "white",
+              WebkitTextStroke: "3px black", // outline
+              textStroke: "3px black", // fallback
+            }}
+          >
+            Chunky <br /> Kindness
+          </h2>
+        <p className="text-pudgy-navy mt-6 font-inter text-[17px] uppercase leading-[29px] mb-8">
           Find out how Chunky Doge is changing
           <br />
           lives.
         </p>
-        <button className="px-12 py-6 rounded-[5px] border-4 border-black bg-pudgy-blue-light hover:bg-pudgy-blue-bright transition-colors">
-          <span className="text-white font-serif text-[24px] uppercase leading-[46px]">
+        <button className="px-12 py-6 w-max  border-2 border-black bg-pudgy-blue-light hover:bg-pudgy-blue-bright transition-colors rounded-full">
+          <span className="text-white font-serif text-base sm:text-[18px] uppercase ">
             Visit chunky kindness
           </span>
         </button>

@@ -44,14 +44,23 @@ const News = () => {
       <div className="max-w-[1425px] mx-auto">
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-8 lg:gap-12 mb-12">
-          <motion.img
+          <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            src="https://api.builder.io/api/v1/image/assets/TEMP/d134a29c48db7294c759d4d081956cf773839ac7?width=799"
-            alt="Word on the Igloo"
-            className="w-full max-w-[300px] sm:max-w-[350px] md:max-w-[399px] object-contain"
-          />
+            className="w-full max-w-[300px] sm:max-w-[350px] md:max-w-[500px] object-contain"
+          >
+            <h2
+            className="text-[32px] sm:text-[40px] md:text-[60px] lg:text-[100px]  font-extrabold uppercase text-left tracking-tighter leading-none"
+            style={{
+              color: "white",
+              WebkitTextStroke: "3px black", // outline
+              textStroke: "3px black", // fallback
+            }}
+          >
+           Word on the Igloo
+          </h2>
+          </motion.div>
           <img
             src="3.png"
             alt="News Icon"
