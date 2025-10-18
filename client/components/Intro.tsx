@@ -18,27 +18,25 @@ const Intro = () => {
           />
           <div className="flex flex-col gap-5">
             <p className="text-white font-inter text-[17px] uppercase leading-[28px]">
-              Welcome to the world of Pudgy Penguins. a web3-
+              Welcome to the world of Chunky Doge. a web3-
               <br />
-              born brand that fosters creativity, freedom, and
+              powered meme empire celebrating fun, freedom, and
               <br />
               community.
             </p>
             <p className="text-white font-inter text-[17px] uppercase leading-[28px]">
-              The Pudgy Penguins brand produces content,
+              The Chunky Doge brand brings you memes,
               <br />
-              merchandise, toys, and digital collectables. We
+              collectibles, merch, and digital adventures. We
               <br />
-              believe in the power of play and imagination, and
+              believe in the power of laughter and imagination, and
               <br />
-              we're committed to helping you unlock your inner
-              <br />
-              child.
+              we're here to spread chunky joy across the internet.
             </p>
             <p className="text-white font-inter text-[17px] uppercase leading-[28px]">
-              It's a very cold place but you'll be warm with your
+              The world might be crazy, but you'll stay comfy with your
               <br />
-              new favorite penguin family!
+              new favorite doge family!
             </p>
           </div>
         </div>

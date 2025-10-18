@@ -24,7 +24,7 @@ export function Footer() {
                   backgroundClip: "text",
                 }}
               >
-                Welcome to the home of the penguins, The Huddle! 🐧
+                Welcome to the home of the doges, The Chunky Pack! 🐶
               </span>
             ))}
           </motion.div>
@@ -45,21 +45,56 @@ export function Footer() {
           {/* Navigation Links */}
           <div className="flex flex-wrap gap-8 lg:gap-12">
             <div className="flex flex-col gap-0">
-              <a href="#" className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors" style={{ textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000" }}>
+              <a
+                href="#"
+                className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors"
+                style={{
+                  textShadow:
+                    "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000",
+                }}
+              >
                 The Team
               </a>
-              <a href="#" className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors" style={{ textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000" }}>
-                Pengu Lore
+              <a
+                href="#"
+                className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors"
+                style={{
+                  textShadow:
+                    "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000",
+                }}
+              >
+                chunky Lore
               </a>
-              <a href="#" className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors" style={{ textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000" }}>
-                Buy $PENGU
+              <a
+                href="#"
+                className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors"
+                style={{
+                  textShadow:
+                    "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000",
+                }}
+              >
+                Buy $chunky
               </a>
             </div>
             <div className="flex flex-col gap-0">
-              <a href="#" className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors" style={{ textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000" }}>
+              <a
+                href="#"
+                className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors"
+                style={{
+                  textShadow:
+                    "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000",
+                }}
+              >
                 Shop
               </a>
-              <a href="#" className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors" style={{ textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000" }}>
+              <a
+                href="#"
+                className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors"
+                style={{
+                  textShadow:
+                    "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000",
+                }}
+              >
                 Igloo Brand
               </a>
             </div>
@@ -71,17 +106,45 @@ export function Footer() {
               follow us, fellow pengu
             </h3>
             <div className="flex gap-2">
-              <a href="#" className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform">
-                <img src="https://api.builder.io/api/v1/image/assets/TEMP/50c89d2a27a7d29472ae0f4c8b8e6dde455f4e3e?width=281" alt="Social" className="w-full h-full object-cover" />
+              <a
+                href="#"
+                className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform"
+              >
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/50c89d2a27a7d29472ae0f4c8b8e6dde455f4e3e?width=281"
+                  alt="Social"
+                  className="w-full h-full object-cover"
+                />
               </a>
-              <a href="#" className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform">
-                <img src="https://api.builder.io/api/v1/image/assets/TEMP/a929930e756613c41581af9754533503d40c171c?width=281" alt="Social" className="w-full h-full object-cover" />
+              <a
+                href="#"
+                className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform"
+              >
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/a929930e756613c41581af9754533503d40c171c?width=281"
+                  alt="Social"
+                  className="w-full h-full object-cover"
+                />
               </a>
-              <a href="#" className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform">
-                <img src="https://api.builder.io/api/v1/image/assets/TEMP/b65b2613599af27d034519213b52d9f4a534df87?width=281" alt="Social" className="w-full h-full object-cover" />
+              <a
+                href="#"
+                className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform"
+              >
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/b65b2613599af27d034519213b52d9f4a534df87?width=281"
+                  alt="Social"
+                  className="w-full h-full object-cover"
+                />
               </a>
-              <a href="#" className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform">
-                <img src="https://api.builder.io/api/v1/image/assets/TEMP/ef5b473544e5e1389650145fb5838f8f662bb49c?width=281" alt="Social" className="w-full h-full object-cover" />
+              <a
+                href="#"
+                className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform"
+              >
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/ef5b473544e5e1389650145fb5838f8f662bb49c?width=281"
+                  alt="Social"
+                  className="w-full h-full object-cover"
+                />
               </a>
             </div>
           </div>
@@ -91,19 +154,32 @@ export function Footer() {
         <div className="mt-12 lg:mt-16 pt-4 border-t border-[#477DFD]">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <p className="text-pudgy-blue-light text-[13px] uppercase leading-[18px] tracking-[-0.3px]">
-              Copyright © 2025 -- LSLTTT Holdings, Inc. dba "Pudgy Penguins" -- All rights reserved
+              Copyright © 2025 -- LSLTTT Holdings, Inc. dba "chunky doges" --
+              All rights reserved
             </p>
             <div className="flex flex-wrap gap-5">
-              <a href="#" className="text-pudgy-blue-light text-[13px] uppercase leading-[18px] tracking-[-0.3px] hover:text-pudgy-coral transition-colors">
+              <a
+                href="#"
+                className="text-pudgy-blue-light text-[13px] uppercase leading-[18px] tracking-[-0.3px] hover:text-pudgy-coral transition-colors"
+              >
                 Privacy policy
               </a>
-              <a href="#" className="text-pudgy-blue-light text-[13px] uppercase leading-[18px] tracking-[-0.3px] hover:text-pudgy-coral transition-colors">
+              <a
+                href="#"
+                className="text-pudgy-blue-light text-[13px] uppercase leading-[18px] tracking-[-0.3px] hover:text-pudgy-coral transition-colors"
+              >
                 Terms of Use
               </a>
-              <a href="#" className="text-pudgy-blue-light text-[13px] uppercase leading-[18px] tracking-[-0.3px] hover:text-pudgy-coral transition-colors">
+              <a
+                href="#"
+                className="text-pudgy-blue-light text-[13px] uppercase leading-[18px] tracking-[-0.3px] hover:text-pudgy-coral transition-colors"
+              >
                 IP Rights
               </a>
-              <a href="#" className="text-pudgy-blue-light text-[13px] uppercase leading-[18px] tracking-[-0.3px] hover:text-pudgy-coral transition-colors">
+              <a
+                href="#"
+                className="text-pudgy-blue-light text-[13px] uppercase leading-[18px] tracking-[-0.3px] hover:text-pudgy-coral transition-colors"
+              >
                 Careers
               </a>
             </div>

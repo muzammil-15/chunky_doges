@@ -20,7 +20,7 @@ const Slider = () => {
           <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[29px] mb-8">
             Inspire, Participate, and create with
             <br />
-            your fellow penguins.
+            your fellow chunky.
           </p>
           <button className="group relative">
             <div className="absolute inset-0 rounded-full border-2 border-pudgy-navy bg-pudgy-blue-bright translate-x-0 translate-y-1" />
@@ -34,7 +34,7 @@ const Slider = () => {
                 </svg>
               </div>
               <span className="text-pudgy-navy font-serif text-[18px] font-bold uppercase leading-[30px]">
-                View Pudgy Media
+                View chunky Media
               </span>
             </div>
           </button>
@@ -59,9 +59,9 @@ const Slider = () => {
             className="w-full max-w-[449px] mb-8"
           />
           <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[29px] mb-8">
-            A hangout spot for all Penguins.
+            A hangout spot for all Doges.
             <br />
-            Join to interact with The Huddle.
+            Join to chill with the Chunky Pack.
           </p>
           <button className="group relative">
             <div className="absolute inset-0 rounded-full border-2 border-pudgy-navy bg-pudgy-blue-bright translate-x-0 translate-y-1" />
@@ -101,13 +101,13 @@ const Slider = () => {
           className="w-full max-w-[353px] mb-8"
         />
         <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[29px] mb-8">
-          Find out how pengu is changing
+          Find out how Chunky Doge is changing
           <br />
           lives.
         </p>
         <button className="px-12 py-6 rounded-[5px] border-4 border-black bg-pudgy-blue-light hover:bg-pudgy-blue-bright transition-colors">
           <span className="text-white font-serif text-[24px] uppercase leading-[46px]">
-            Visit pengu kindness
+            Visit chunky kindness
           </span>
         </button>
         <img

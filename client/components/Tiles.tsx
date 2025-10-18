@@ -17,8 +17,9 @@ const Tiles = () => {
         />
         <div className="mt-8">
           <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[28px] mb-8">
-            Learn about the pengu lore
+            Learn about the chunky lore
           </p>
+
           <button className="group relative">
             <div className="absolute inset-0 rounded-full border-2 border-pudgy-navy bg-pudgy-blue-bright translate-x-0 translate-y-1" />
             <div className="relative flex items-center gap-4 px-6 py-4 rounded-full border-2 border-pudgy-navy bg-white hover:-translate-y-1 transition-transform">

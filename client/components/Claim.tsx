@@ -92,15 +92,15 @@ const Claim = () => {
       {/* Description */}
       <div className="text-center max-w-[773px] mx-auto mb-12">
         <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[29px]">
-          Lil Pudgys are 22,222 Pudgys of northern descent. Lil Pudgys are cute
-          and
+          Chunky Doges are 22,222 doges of pure meme energy. They’re cute,
+          loyal, and
         </p>
         <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[29px]">
-          adorable but don't let their looks fool you. They are fierce, mighty,
-          and are
+          absolutely unstoppable when it comes to spreading joy, laughter, and
+          chunky
         </p>
         <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[29px]">
-          allies in the fight against the evil bears of negativity.
+          vibes in the fight against the evil bears of boredom.
         </p>
       </div>
 
@@ -122,17 +122,18 @@ const Claim = () => {
 
         <div className="flex-1 bg-pudgy-cream rounded-[25px] border-4 border-black p-8 lg:p-12">
           <h3 className="font-serif text-[33px] font-bold uppercase leading-[61px] mb-4">
-            Claim free Lil Pudgys to
+            Claim free Lil Doges to
             <br />
-            vibe with the Pudgy
+            vibe with the Chunky
             <br />
-            Penguins you own.
+            Doges you hold.
           </h3>
           <p className="text-pudgy-navy font-inter text-[17px] uppercase leading-[29px] mb-8">
-            Check if a Pudgy Penguin is still eligible
+            Check if your Chunky Doge is still eligible
             <br />
-            to claim a Lil Pudgy
+            to claim a Lil Doge
           </p>
+
           <button className="w-full max-w-[580px] py-6 rounded-[5px] border-4 border-black bg-pudgy-blue-light hover:bg-pudgy-blue-bright transition-colors">
             <span className="text-pudgy-sky font-serif text-[24px] uppercase leading-[48px]">
               CONNECT WALLET

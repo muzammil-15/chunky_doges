@@ -26,9 +26,10 @@ const News = () => {
           <div className="flex gap-5 min-w-max">
             {[
               {
-                tag: "Just in!",
-                title: "Pudgy Penguins' NFT sales surge 500% on mystery map.",
-                author: "Danny Park",
+                tag: "Breaking!",
+                title:
+                  "Chunky Doge’s meme coin hype surges 500% after mysterious drop.",
+                author: "Danny Bark",
                 source: "Yahoo Finance",
                 image:
                   "https://api.builder.io/api/v1/image/assets/TEMP/f3cc32634f7165b97d5efc1115fc1c0d99c4dee3?width=689",
@@ -37,8 +38,8 @@ const News = () => {
               },
               {
                 title:
-                  "Pudgy Penguins help drive weekly NFT sales to more than $400 million.",
-                author: "Matthew Fox",
+                  "Chunky Doge leads the meme coin rally, sending weekly trading to the moon.",
+                author: "Matthew Fluff",
                 source: "Business Insider",
                 image:
                   "https://api.builder.io/api/v1/image/assets/TEMP/cc58bc1df32ba57fcb3fdf2a317edfe9fa8f884c?width=689",
@@ -47,8 +48,8 @@ const News = () => {
               },
               {
                 title:
-                  "I Joined a Penguin NFT Club Because Apparently That's What We Do Now.",
-                author: "Kevin Roose",
+                  "I Joined the Chunky Doge Army — and Now I Just Keep Barking ‘To The Moon!’",
+                author: "Kevin Woofe",
                 source: "The New York Times",
                 image:
                   "https://api.builder.io/api/v1/image/assets/TEMP/11656c8b654d536b870e6968f3d653bff71f8374?width=689",

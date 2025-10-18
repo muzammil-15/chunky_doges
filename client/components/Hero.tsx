@@ -122,10 +122,10 @@ const Hero = () => {
       {/* Subtitle Text */}
       <div className="absolute bottom-[420px] left-1/2 -translate-x-1/2 text-center w-full max-w-[658px] px-4">
         <p className="text-white font-inter text-[17px] uppercase leading-[29px]">
-          Pudgy Penguins is a global IP focused on proliferating the
+           Chunky Doge is a global movement spreading the
         </p>
         <p className="text-white font-inter text-[17px] uppercase leading-[29px]">
-          penguin, memetic culture, and good vibes.
+          doge spirit, meme culture, and chunky good vibes.
         </p>
       </div>
     </section>
