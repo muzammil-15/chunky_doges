@@ -154,7 +154,7 @@ export function Footer() {
         <div className="mt-12 lg:mt-16 pt-4 border-t border-[#477DFD]">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <p className="text-pudgy-blue-light text-[13px] uppercase leading-[18px] tracking-[-0.3px]">
-              Copyright © 2025 -- LSLTTT Holdings, Inc. dba "chunky doges" --
+              Copyright © 2025 chunky doges
               All rights reserved
             </p>
             <div className="flex flex-wrap gap-5">
