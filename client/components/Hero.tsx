@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="relative h-[1156px] bg-gradient-to-r from-[#0179E7] to-[#0086F8]  pt-[137px]  overflow-hidden">
+    <section className="relative h-[1000px] bg-gradient-to-r from-[#0179E7] to-[#0086F8]  pt-[137px]  overflow-hidden">
       {/* Background Image */}
       <img
         src="/herobg.jpg"
@@ -12,31 +12,26 @@ const Hero = () => {
       />
 
       {/* Penguin Scene */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[1078px] h-[539px] px-4">
+      <div className="absolute flex items-end justify-center bottom-0 left-1/2  -translate-x-1/2 w-full max-w-[1078px] h-[400px] px-4">
         <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/6f066de212d059ec9a5f36d040a61e8c32baa2a3?width=2157"
+          src="/3.png"
           alt=""
-          className="absolute bottom-[120px] left-0 w-full h-auto"
+          className=" bottom- left-0 w-[250px] h-auto"
         />
         <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/bed8865766bdce1350d428b39570e1751c899f5b?width=2157"
+          src="/4.png"
           alt=""
-          className="absolute bottom-[114px] left-0 w-full h-auto"
+          className=" bottom-0 left-0 w-[250px] h-auto"
         />
         <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/879982c5c681aefc41fa843df1b0b139cfe5f101?width=2157"
+          src="/5.png"
           alt=""
-          className="absolute bottom-[101px] left-0 w-full h-auto"
+          className=" bottom-0 left-0 w-[250px] h-auto"
         />
         <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/8630c9746faf17d0ce1080b119da00be5499b11c?width=2157"
+          src="/6.png"
           alt=""
-          className="absolute bottom-[236px] left-0 w-full h-auto"
-        />
-        <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/5ad326466f12254f8963b92523eb0487d81cb25a?width=2157"
-          alt=""
-          className="absolute bottom-[104px] left-0 w-full h-auto"
+          className=" bottom-0 left-0 w-[250px] h-auto"
         />
       </div>
 
@@ -125,7 +120,7 @@ const Hero = () => {
       </div>
 
       {/* Subtitle Text */}
-      <div className="absolute bottom-[558px] left-1/2 -translate-x-1/2 text-center max-w-[658px] px-4">
+      <div className="absolute bottom-[420px] left-1/2 -translate-x-1/2 text-center w-full max-w-[658px] px-4">
         <p className="text-white font-inter text-[17px] uppercase leading-[29px]">
           Pudgy Penguins is a global IP focused on proliferating the
         </p>

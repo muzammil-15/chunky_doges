@@ -62,7 +62,7 @@ export function Header() {
         </button>
 
         {/* Logo */}
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        <div className="absolute left-3/4 sm:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <img
             src="logo.png"
             alt="Chunky Doges"
@@ -71,7 +71,7 @@ export function Header() {
         </div>
 
         {/* Buy $CHUNKY Button */}
-        <button className="relative group">
+        <button className="hidden sm:flex sm:relative group">
           <div className="absolute inset-0 rounded-[5px] border-2 border-black bg-pudgy-blue-light translate-y-1 transition-all duration-300 group-hover:translate-y-0.5" />
           <div className="relative px-4 sm:px-6 md:px-7 py-2 sm:py-2.5 md:py-3 rounded-[5px] border-2 border-black bg-pudgy-blue-light hover:-translate-y-1 transition-all duration-300 ease-in-out">
             <span className="text-pudgy-sky font-serif text-[16px] sm:text-[18px] md:text-[21px] uppercase leading-[20px] sm:leading-[23px] md:leading-[26px]">
