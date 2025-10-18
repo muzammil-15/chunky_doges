@@ -7,15 +7,23 @@ const Intro = () => {
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 max-w-[1425px] mx-auto">
         {/* Left Content */}
         <div className="flex flex-col gap-10 lg:w-1/2 z-10">
-          <motion.img
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            src="https://api.builder.io/api/v1/image/assets/TEMP/055e033148e3e75914e63d8b8b77444174f40785?width=1038"
-            alt="Pudgy Penguins"
-            className="w-full max-w-[519px]"
-          />
+            >
+               <h2
+            className="text-[40px] sm:text-[60px] md:text-[80px] lg:text-[100px] xl:text-[120px] font-extrabold uppercase text-left tracking-tight leading-none"
+            style={{
+              color: "white",
+              WebkitTextStroke: "3px black", // outline
+              textStroke: "3px black", // fallback
+            }}
+          >
+            chunky doges
+          </h2>
+            </motion.div>
           <div className="flex flex-col gap-5">
             <p className="text-white font-inter text-[17px] uppercase leading-[28px]">
               Welcome to the world of Chunky Doge. a web3-

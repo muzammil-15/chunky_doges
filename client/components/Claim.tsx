@@ -148,11 +148,11 @@ const Claim = () => {
       </div>
 
       {/* Bottom Marquee */}
-      <div className="mt-24 bg-pudgy-cream h-[98px] overflow-hidden relative">
+      <div className="mt-24 bg-pudgy-cream rounded-2xl h-[98px] overflow-hidden relative">
         <motion.div
           className="absolute whitespace-nowrap flex gap-6 h-full items-center px-4"
           animate={{ x: ["0%", "-50%"] }}
-          transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
+          transition={{ duration: 90, repeat: Infinity, ease: "linear" }}
         >
           {[...Array(10)].map((_, i) => (
             <span
