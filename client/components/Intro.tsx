@@ -52,20 +52,20 @@ const Intro = () => {
         {/* Right Penguins */}
         <div className="relative lg:w-1/2">
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/9a3a2308e81852af57217801e86d284c564c35ec?width=1000"
+            src="/1.png"
             alt=""
-            className="absolute -left-32 top-0 w-[500px] h-[500px] lg:block hidden"
+            className="absolute -left-32 top-0 w-[200px] h-[200px] lg:block hidden"
           />
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/a37d2edebf5f78eb59caa7eb7e735c0f89a53aca?width=640"
+            src="/2.png"
             alt=""
             className="absolute left-[290px] top-[191px] w-[320px] h-[320px] lg:block hidden"
           />
-          <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/47296227da68974851d8e10bc0b3840f26c586b1?width=440"
+          {/* <img
+            src="/3.png"
             alt=""
             className="absolute right-0 top-[296px] w-[220px] h-[220px] lg:block hidden"
-          />
+          /> */}
         </div>
       </div>
     </section>

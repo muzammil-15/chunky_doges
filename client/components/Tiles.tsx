@@ -48,9 +48,9 @@ const Tiles = () => {
           </button>
         </div>
         <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/50ae364b97a9d74821cdecf126059c60c5cb83a0?width=600"
+          src="/6.png"
           alt=""
-          className="absolute bottom-[0] right-[-50px] w-[300px] h-[300px]"
+          className="absolute bottom-[-30px] right-0 w-[280px] sm:w-[350px] h-[280px] sm:h-[350px]"
         />
       </div>
 
@@ -96,9 +96,9 @@ const Tiles = () => {
           </button>
         </div>
         <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/5049787a42d50b38c783db97d75d11cf445c1b8e?width=800"
+          src="/7.png"
           alt=""
-          className="absolute bottom-[-42px] right-[-16px] w-[400px] h-[400px]"
+          className="absolute bottom-[-30px] right-0 w-[280px] sm:w-[350px] h-[280px] sm:h-[350px]"
         />
       </div>
     </section>
