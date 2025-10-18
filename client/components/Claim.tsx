@@ -39,18 +39,18 @@ const Claim = () => {
       </div>
 
       <img
-        src="https://api.builder.io/api/v1/image/assets/TEMP/1abfc669e282f345d0f130b76791623b7f34d7ec?width=1280"
+        src="2.png"
         alt=""
-        className="mx-auto w-full max-w-[640px] mb-16"
+        className="mx-auto w-full max-w-[300px] mb-16"
       />
 
       {/* Claim Card */}
       <div className="flex flex-col lg:flex-row gap-12 items-center max-w-[1034px] mx-auto">
         <div className="relative w-full max-w-[399px] h-[548px] rounded-[25px] border-4 border-black overflow-hidden">
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/5d06970d5d97b6825340b55cb1e227e6dbd66c6f?width=781"
+            src="4.png"
             alt="Pudgy Penguin Card"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-[400px] object-cover"
           />
         </div>
 
@@ -74,9 +74,9 @@ const Claim = () => {
             </span>
           </button>
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/3d8f9032a2b629f7ecc03c533104d44a586079d4?width=445"
+            src="1.png"
             alt=""
-            className="absolute bottom-0 right-12 w-[223px] h-auto"
+            className="absolute bottom-14 right-12 w-[130px] h-auto"
           />
         </div>
       </div>

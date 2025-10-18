@@ -39,9 +39,9 @@ const Slider = () => {
             </div>
           </button>
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/68de9de9c552f2c4b8c8fe8203df0e3393a9baac?width=273"
+            src="/6.png"
             alt=""
-            className="absolute bottom-4 right-4 w-[137px] h-auto"
+            className="absolute bottom-4 right-2 w-[137px] h-auto"
           />
         </motion.div>
 
@@ -80,7 +80,7 @@ const Slider = () => {
             </div>
           </button>
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/af5e4fbc21ce9edb88e0ddcb57c3632716a8cfd8?width=273"
+            src="/7.png"
             alt=""
             className="absolute bottom-4 right-4 w-[137px] h-auto"
           />
@@ -111,7 +111,7 @@ const Slider = () => {
           </span>
         </button>
         <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/82cb21bf341c4db491f7e2ff3d6ce5847c472fb6?width=885"
+          src="/lastimg.png"
           alt=""
           className="absolute bottom-0 right-12 w-[443px] h-auto"
         />

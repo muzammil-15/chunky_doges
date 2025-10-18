@@ -37,7 +37,7 @@ export function Footer() {
         <div className="flex flex-col lg:flex-row items-start justify-between gap-12 lg:gap-16">
           {/* Logo */}
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/0526b726f9f0ecd2e0ce7bd9ee8ccb6b202a71c3?width=214"
+            src="logo.png"
             alt="Pudgy Penguins"
             className="w-[107px] h-[89px]"
           />
@@ -108,7 +108,7 @@ export function Footer() {
             <div className="flex gap-2">
               <a
                 href="#"
-                className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform"
+                className="rounded-full overflow-hidden hover:scale-150 transition-transform"
               >
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/50c89d2a27a7d29472ae0f4c8b8e6dde455f4e3e?width=281"
@@ -118,7 +118,7 @@ export function Footer() {
               </a>
               <a
                 href="#"
-                className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform"
+                className=" rounded-full overflow-hidden hover:scale-150 transition-transform"
               >
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/a929930e756613c41581af9754533503d40c171c?width=281"
@@ -128,7 +128,7 @@ export function Footer() {
               </a>
               <a
                 href="#"
-                className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform"
+                className=" rounded-full overflow-hidden hover:scale-150 transition-transform"
               >
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/b65b2613599af27d034519213b52d9f4a534df87?width=281"
@@ -138,7 +138,7 @@ export function Footer() {
               </a>
               <a
                 href="#"
-                className="w-[70px] h-[70px] rounded-full overflow-hidden hover:scale-110 transition-transform"
+                className="rounded-full overflow-hidden hover:scale-150 transition-transform"
               >
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/ef5b473544e5e1389650145fb5838f8f662bb49c?width=281"
