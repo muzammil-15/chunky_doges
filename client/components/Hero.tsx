@@ -3,21 +3,21 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="relative h-[1000px] bg-gradient-to-r from-[#0179E7] to-[#0086F8]  pt-[137px]  overflow-hidden">
+    <section className="relative h-[800px] sm:h-[1000px] bg-gradient-to-r from-[#0179E7] to-[#0086F8] pt-[90px]  md:pt-[137px]  overflow-hidden">
       {/* Background Image */}
       <img
         src="/herobg.jpg"
         alt=""
-        className="absolute top-[312px] left-0 w-full  h-[844px] object-cover"
+        className="absolute top-[100px] md:top-[312px] left-0 w-full h-[700px]  sm:h-[844px] object-cover "
       />
 
       {/* Penguin Scene */}
       <div className="absolute flex items-end justify-center bottom-0 left-1/2  -translate-x-1/2 w-full max-w-[1078px] h-[400px] px-4">
-        <img src="/3.png" alt="" className=" bottom- left-0 w-[250px] h-auto" />
+        <img src="/3.png" alt="" className=" hidden sm:flex bottom-0 left-0 w-[250px] h-auto" />
         <img
           src="/4.png"
           alt=""
-          className=" bottom-0 left-0 w-[250px] h-auto"
+          className="hidden bottom-0 md:flex left-0 w-[250px] h-auto"
         />
         <img
           src="/5.png"
@@ -27,7 +27,7 @@ const Hero = () => {
         <img
           src="/6.png"
           alt=""
-          className=" bottom-0 left-0 w-[250px] h-auto"
+          className="hidden bottom-0 lg:flex left-0 w-[250px] h-auto"
         />
       </div>
 
@@ -53,7 +53,7 @@ const Hero = () => {
       </div>
 
       {/* Subtitle Text */}
-      <div className="absolute bottom-[420px] left-1/2 -translate-x-1/2 text-center w-full max-w-[658px] px-4">
+      <div className="absolute bottom-[350px] sm:bottom-[420px] left-1/2 -translate-x-1/2 text-center w-full max-w-[658px] px-4">
         <p className="text-white font-inter text-[17px] uppercase leading-[29px]">
           Chunky Doge is a global movement spreading the
         </p>

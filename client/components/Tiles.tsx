@@ -55,7 +55,7 @@ const Tiles = () => {
       </div>
 
       {/* Shop Toys & Figurines */}
-      <div className="relative bg-[#FFDBDB] lg:w-1/2 p-12 lg:p-16 min-h-[600px] flex flex-col justify-start sm:justify-between overflow-hidden">
+      <div className="relative bg-[#FFDBDB] lg:w-1/2 border p-6 sm:p-12 lg:p-16 min-h-[600px] flex flex-col justify-start sm:justify-between overflow-hidden">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -64,7 +64,7 @@ const Tiles = () => {
           className="w-full max-w-[494px]"
         >
           <h2
-            className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[80px] border font-extrabold uppercase text-left tracking-tighter leading-none"
+            className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[80px]  font-extrabold uppercase text-left tracking-tighter leading-none"
             style={{
               color: "white",
               WebkitTextStroke: "3px black", // outline

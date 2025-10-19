@@ -62,11 +62,11 @@ export function Header() {
         </button>
 
         {/* Logo */}
-        <div className="absolute left-3/4 sm:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        <div className="absolute left-[88%] sm:left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <img
             src="logo.png"
             alt="Chunky Doges"
-            className="w-[60px] h-[50px] sm:w-[75px] h-[62px] md:w-[89px] h-[74px]"
+            className="w-[60px] h-[50px] sm:w-[75px] sm:h-[62px] md:w-[89px] md:h-[68px]"
           />
         </div>
 
