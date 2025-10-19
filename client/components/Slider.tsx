@@ -44,7 +44,7 @@ const Slider = () => {
             </div>
           </button>
           <img
-            src="/6.png"
+            src="/6.webp"
             alt=""
             className="hidden sm:flex absolute bottom-4 right-2 w-[137px] h-auto"
           />
@@ -90,7 +90,7 @@ const Slider = () => {
             </div>
           </button>
           <img
-            src="/7.png"
+            src="/7.webp"
             alt=""
             className="hidden sm:flex absolute bottom-4 right-4 w-[137px] h-auto"
           />

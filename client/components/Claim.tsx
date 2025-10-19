@@ -38,13 +38,13 @@ const Claim = () => {
         </p>
       </div>
 
-      <img src="/2.png" alt="" className="mx-auto w-full max-w-[300px] mb-16" />
+      <img src="/2.webp" alt="" className="mx-auto w-full max-w-[300px] mb-16" />
 
       {/* Claim Card */}
       <div className="flex flex-col lg:flex-row gap-12 items-center max-w-[1034px] mx-auto">
         <div className="relative flex justify-center items-end w-full max-w-[399px] h-[548px] rounded-[25px] border-4 border-black overflow-hidden">
           <img
-            src="/4.png"
+            src="/4.webp"
             alt="Pudgy Penguin Card"
             className=" w-full h-[400px] object-cover"
           />
@@ -64,7 +64,7 @@ const Claim = () => {
             to claim a Lil Doge
           </p>
 
-          <button className="w-full max-w-max py-6 text-nowrap px-8 rounded-full border-2 border-black bg-pudgy-blue-light hover:bg-pudgy-blue-bright transition-colors">
+          <button className="w-full max-w-max py-4 px-6 sm:py-6 text-nowrap sm:px-8 rounded-full border-2 border-black bg-pudgy-blue-light hover:bg-pudgy-blue-bright transition-colors">
             <span className="text-pudgy-sky text-lg font-serif sm:text-[24px] uppercase leading-[48px]">
               CONNECT WALLET
             </span>

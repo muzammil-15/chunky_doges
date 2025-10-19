@@ -48,7 +48,7 @@ const Tiles = () => {
           </button>
         </div>
         <img
-          src="/6.png"
+          src="/6.webp"
           alt=""
           className="absolute bottom-[-30px] right-0 w-[280px] sm:w-[350px] h-[280px] sm:h-[350px]"
         />
@@ -96,7 +96,7 @@ const Tiles = () => {
           </button>
         </div>
         <img
-          src="/7.png"
+          src="/7.webp"
           alt=""
           className="absolute bottom-[-30px] right-0 w-[280px] sm:w-[350px] h-[280px] sm:h-[350px]"
         />

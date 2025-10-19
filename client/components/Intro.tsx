@@ -52,17 +52,17 @@ const Intro = () => {
         {/* Right Penguins */}
         <div className="relative lg:w-1/2">
           <img
-            src="/1.png"
+            src="/1.webp"
             alt=""
             className="absolute -left-32 top-0 w-[200px] h-[200px] lg:block hidden"
           />
           <img
-            src="/2.png"
+            src="/2.webp"
             alt=""
             className="absolute left-[290px] top-[191px] w-[320px] h-[320px] lg:block hidden"
           />
           {/* <img
-            src="/3.png"
+            src="/3.webp"
             alt=""
             className="absolute right-0 top-[296px] w-[220px] h-[220px] lg:block hidden"
           /> */}

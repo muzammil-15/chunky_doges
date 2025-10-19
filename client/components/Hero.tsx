@@ -13,19 +13,19 @@ const Hero = () => {
 
       {/* Penguin Scene */}
       <div className="absolute flex items-end justify-center bottom-0 left-1/2  -translate-x-1/2 w-full max-w-[1078px] h-[400px] px-4">
-        <img src="/3.png" alt="" className=" hidden sm:flex bottom-0 left-0 w-[250px] h-auto" />
+        <img src="/3.webp" alt="" className=" hidden sm:flex bottom-0 left-0 w-[250px] h-auto" />
         <img
-          src="/4.png"
+          src="/4.webp"
           alt=""
           className="hidden bottom-0 md:flex left-0 w-[250px] h-auto"
         />
         <img
-          src="/5.png"
+          src="/5.webp"
           alt=""
           className=" bottom-0 left-0 w-[250px] h-auto"
         />
         <img
-          src="/6.png"
+          src="/6.webp"
           alt=""
           className="hidden bottom-0 lg:flex left-0 w-[250px] h-auto"
         />

@@ -37,7 +37,7 @@ export function Footer() {
         <div className="flex flex-col lg:flex-row items-start justify-between gap-12 lg:gap-16">
           {/* Logo */}
           <img
-            src="logo.png"
+            src="/logo.webp"
             alt="Pudgy Penguins"
             className="w-[107px] h-[89px]"
           />
@@ -47,7 +47,7 @@ export function Footer() {
             <div className="flex flex-col gap-0">
               <a
                 href="#"
-                className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors"
+                className="text-pudgy-blue-light font-serif text-[22px] leading-[48px] sm:text-[33px] font-bold uppercase sm:leading-[76px] hover:text-pudgy-coral transition-colors"
                 style={{
                   textShadow:
                     "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000",
@@ -57,7 +57,7 @@ export function Footer() {
               </a>
               <a
                 href="#"
-                className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors"
+                className="text-pudgy-blue-light font-serif text-[22px] leading-[48px] sm:text-[33px] font-bold uppercase sm:leading-[76px] hover:text-pudgy-coral transition-colors"
                 style={{
                   textShadow:
                     "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000",
@@ -67,7 +67,7 @@ export function Footer() {
               </a>
               <a
                 href="#"
-                className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors"
+                className="text-pudgy-blue-light font-serif text-[22px] leading-[48px] sm:text-[33px] font-bold uppercase sm:leading-[76px] hover:text-pudgy-coral transition-colors"
                 style={{
                   textShadow:
                     "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000",
@@ -76,10 +76,10 @@ export function Footer() {
                 Buy $chunky
               </a>
             </div>
-            <div className="flex flex-col gap-0">
+            <div className="flex flex-col mt-[-32px] sm:mt-0 gap-0">
               <a
                 href="#"
-                className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors"
+                className="text-pudgy-blue-light font-serif text-[22px] leading-[48px] sm:text-[33px] font-bold uppercase sm:leading-[76px] hover:text-pudgy-coral transition-colors"
                 style={{
                   textShadow:
                     "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000",
@@ -89,7 +89,7 @@ export function Footer() {
               </a>
               <a
                 href="#"
-                className="text-pudgy-blue-light font-serif text-[33px] font-bold uppercase leading-[76px] hover:text-pudgy-coral transition-colors"
+                className="text-pudgy-blue-light font-serif text-[22px] leading-[48px] sm:text-[33px] font-bold uppercase sm:leading-[76px] hover:text-pudgy-coral transition-colors"
                 style={{
                   textShadow:
                     "-1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000",

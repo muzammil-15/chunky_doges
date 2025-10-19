@@ -10,32 +10,32 @@ const News = () => {
         "Chunky Doge’s meme coin hype surges 500% after mysterious drop.",
       author: "Danny Bark",
       source: "Yahoo Finance",
-      image: "1.png",
-      avatar: "3.png",
+      image: "/1.webp",
+      avatar: "/3.webp",
     },
     {
       title:
         "Chunky Doge leads the meme coin rally, sending weekly trading to the moon.",
       author: "Matthew Fluff",
       source: "Business Insider",
-      image: "7.png",
-      avatar: "4.png",
+      image: "/7.webp",
+      avatar: "/4.webp",
     },
     {
       title:
         "I Joined the Chunky Doge Army — and Now I Just Keep Barking ‘To The Moon!’",
       author: "Kevin Woofe",
       source: "The New York Times",
-      image: "1.png",
-      avatar: "8.png",
+      image: "/1.webp",
+      avatar: "/8.webp",
     },
     {
       title:
         "This is the best for future income — future income is the best.",
       author: "Kevin Woofe",
       source: "The New York Times",
-      image: "7.png",
-      avatar: "4.png",
+      image: "/7.webp",
+      avatar: "/4.webp",
     },
   ];
 
