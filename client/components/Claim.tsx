@@ -12,15 +12,15 @@ const Claim = () => {
         className="text-center mb-12"
       >
         <h2
-            className="text-[40px] sm:text-[50px] text-center md:text-[60px] lg:text-[80px] xl:text-[100px]  font-extrabold uppercase tracking-tighter leading-none"
-            style={{
-              color: "white",
-              WebkitTextStroke: "3px black", // outline
-              textStroke: "3px black", // fallback
-            }}
-          >
-            lil chunky
-          </h2>
+          className="text-[40px] sm:text-[50px] text-center md:text-[60px] lg:text-[80px] xl:text-[100px]  font-extrabold uppercase tracking-tighter leading-none"
+          style={{
+            color: "white",
+            WebkitTextStroke: "3px black", // outline
+            textStroke: "3px black", // fallback
+          }}
+        >
+          lil chunky
+        </h2>
       </motion.div>
 
       {/* Description */}
@@ -38,24 +38,20 @@ const Claim = () => {
         </p>
       </div>
 
-      <img
-        src="2.png"
-        alt=""
-        className="mx-auto w-full max-w-[300px] mb-16"
-      />
+      <img src="/2.png" alt="" className="mx-auto w-full max-w-[300px] mb-16" />
 
       {/* Claim Card */}
       <div className="flex flex-col lg:flex-row gap-12 items-center max-w-[1034px] mx-auto">
-        <div className="relative w-full max-w-[399px] h-[548px] rounded-[25px] border-4 border-black overflow-hidden">
+        <div className="relative flex justify-center items-end w-full max-w-[399px] h-[548px] rounded-[25px] border-4 border-black overflow-hidden">
           <img
-            src="4.png"
+            src="/4.png"
             alt="Pudgy Penguin Card"
-            className="absolute inset-0 w-full h-[400px] object-cover"
+            className=" w-full h-[400px] object-cover"
           />
         </div>
 
         <div className="flex-1 bg-pudgy-cream rounded-[25px] border-4 border-black p-8 lg:p-12">
-          <h3 className="font-serif text-[33px] font-bold uppercase leading-[61px] mb-4">
+          <h3 className="font-serif text-[22px] leading-[40px] sm:text-[33px] font-bold uppercase sm:leading-[61px] mb-4">
             Claim free Lil Doges to
             <br />
             vibe with the Chunky
@@ -68,35 +64,37 @@ const Claim = () => {
             to claim a Lil Doge
           </p>
 
-          <button className="w-full max-w-[580px] py-6 rounded-[5px] border-4 border-black bg-pudgy-blue-light hover:bg-pudgy-blue-bright transition-colors">
-            <span className="text-pudgy-sky font-serif text-[24px] uppercase leading-[48px]">
+          <button className="w-full max-w-max py-6 text-nowrap px-8 rounded-full border-2 border-black bg-pudgy-blue-light hover:bg-pudgy-blue-bright transition-colors">
+            <span className="text-pudgy-sky text-lg font-serif sm:text-[24px] uppercase leading-[48px]">
               CONNECT WALLET
             </span>
           </button>
-          <img
-            src="1.png"
-            alt=""
-            className="absolute bottom-14 right-12 w-[130px] h-auto"
-          />
         </div>
       </div>
 
       {/* Bottom Marquee */}
-      <div className="mt-24 bg-pudgy-cream rounded-2xl h-[98px] overflow-hidden relative">
-        <motion.div
-          className="absolute whitespace-nowrap flex gap-6 h-full items-center px-4"
-          animate={{ x: ["0%", "-50%"] }}
-          transition={{ duration: 90, repeat: Infinity, ease: "linear" }}
-        >
-          {[...Array(10)].map((_, i) => (
-            <span
-              key={i}
-              className="text-pudgy-blue-light font-serif text-[39px] uppercase leading-[63px]"
-            >
-              X MARKS THE SPOT WHEN THE HORIZON SHINES
-            </span>
-          ))}
-        </motion.div>
+      <div className="flex justify-start items-center gap-4 mt-24">
+        <div className=" bg-pudgy-cream  rounded-2xl h-16 sm:h-[98px] overflow-hidden  relative">
+          <motion.div
+            className="whitespace-nowrap flex gap-6 h-full items-center px-4"
+            animate={{ x: ["0%", "-100%"] }}
+            transition={{ duration: 15, repeat: Infinity, ease: "linear" }} // faster
+          >
+            {[...Array(10)].map((_, i) => (
+              <span
+                key={i}
+                className="text-pudgy-blue-light text-[22px] leading-[40px] font-serif sm:text-[39px] uppercase sm:leading-[63px]"
+              >
+                X MARKS THE SPOT WHEN THE HORIZON SHINES
+              </span>
+            ))}
+          </motion.div>
+        </div>
+        <img
+          src="/2.gif"
+          alt=""
+          className=" w-16 h-16 sm:w-20 sm:h-20 rounded-full"
+        />
       </div>
     </section>
   );
