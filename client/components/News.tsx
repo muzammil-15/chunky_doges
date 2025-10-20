@@ -95,7 +95,7 @@ const News = () => {
 
         {/* News Slider */}
         <div
-          className="overflow-x-auto  pb-4 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
+          className="overflow-x-auto cursor-grab active:cursor-grabbing select-none  pb-4 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
           ref={scrollRef}
           onMouseDown={handleMouseDown}
           onMouseLeave={handleMouseLeave}
