@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const Intro = () => {
   return (
-    <section className="relative bg-pudgy-coral border-t-4 border-black py-16 px-4 lg:px-[173px] overflow-hidden">
-      <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 max-w-[1425px] mx-auto">
+    <section className="relative bg-[#FFDBDB] border-t-4 border-black py-16 px-4 lg:px-[173px] overflow-hidden">
+      <div className="flex flex-col lg:flex-row items-center lg:items-center gap-12 max-w-[1425px] mx-auto">
         {/* Left Content */}
         <div className="flex flex-col gap-10 lg:w-1/2 z-10">
           <motion.div
@@ -12,27 +12,27 @@ const Intro = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            >
-               <h2
-            className="text-[40px] sm:text-[60px] md:text-[80px] lg:text-[100px] xl:text-[120px] font-extrabold uppercase text-left tracking-tight leading-none"
-            style={{
-              color: "white",
-              WebkitTextStroke: "3px black", // outline
-              textStroke: "3px black", // fallback
-            }}
           >
-            chunky doges
-          </h2>
-            </motion.div>
+            <h2
+              className="text-[40px] sm:text-[60px] md:text-[80px] lg:text-[100px] xl:text-[120px] font-extrabold uppercase text-left tracking-tight leading-none"
+              style={{
+                color: "white",
+                WebkitTextStroke: "3px black", // outline
+                textStroke: "3px black", // fallback
+              }}
+            >
+              chunky doges
+            </h2>
+          </motion.div>
           <div className="flex flex-col gap-5">
-            <p className="text-white font-inter text-[17px] uppercase leading-[28px]">
+            <p className="text-black font-inter text-[17px] uppercase leading-[28px]">
               Welcome to the world of Chunky Doge. a web3-
               <br />
               powered meme empire celebrating fun, freedom, and
               <br />
               community.
             </p>
-            <p className="text-white font-inter text-[17px] uppercase leading-[28px]">
+            <p className="text-black font-inter text-[17px] uppercase leading-[28px]">
               The Chunky Doge brand brings you memes,
               <br />
               collectibles, merch, and digital adventures. We
@@ -41,7 +41,7 @@ const Intro = () => {
               <br />
               we're here to spread chunky joy across the internet.
             </p>
-            <p className="text-white font-inter text-[17px] uppercase leading-[28px]">
+            <p className="text-black font-inter text-[17px] uppercase leading-[28px]">
               The world might be crazy, but you'll stay comfy with your
               <br />
               new favorite doge family!
@@ -50,16 +50,16 @@ const Intro = () => {
         </div>
 
         {/* Right Penguins */}
-        <div className="relative lg:w-1/2">
-          <img
+        <div className="relative flex justify-center items-center lg:w-1/2">
+          {/* <img
             src="/1.webp"
             alt=""
-            className="absolute -left-32 top-0 w-[200px] h-[200px] lg:block hidden"
-          />
+            className=" w-[200px] h-[200px] lg:block hidden"
+          /> */}
           <img
             src="/2.webp"
             alt=""
-            className="absolute left-[290px] top-[191px] w-[320px] h-[320px] lg:block hidden"
+            className=" w-[320px] h-[320px] sm:w-[480px] sm:h-auto lg:block hidden"
           />
           {/* <img
             src="/3.webp"

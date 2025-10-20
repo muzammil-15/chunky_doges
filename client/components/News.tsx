@@ -1,13 +1,39 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react"; // Using Lucide icons (you can replace if needed)
 
 const News = () => {
+  const scrollRef = useRef(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [scrollLeft, setScrollLeft] = useState(0);
+
+  const handleMouseDown = (e) => {
+    setIsDragging(true);
+    setStartX(e.pageX - scrollRef.current.offsetLeft);
+    setScrollLeft(scrollRef.current.scrollLeft);
+  };
+
+  const handleMouseLeave = () => {
+    setIsDragging(false);
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDragging) return;
+    e.preventDefault();
+    const x = e.pageX - scrollRef.current.offsetLeft;
+    const walk = (x - startX) * 1.5; // scroll speed multiplier
+    scrollRef.current.scrollLeft = scrollLeft - walk;
+  };
+
   const articles = [
     {
       tag: "Breaking!",
-      title:
-        "Chunky Doge’s meme coin hype surges 500% after mysterious drop.",
+      title: "Chunky Doge’s meme coin hype surges 500% after mysterious drop.",
       author: "Danny Bark",
       source: "Yahoo Finance",
       image: "/1.webp",
@@ -30,8 +56,7 @@ const News = () => {
       avatar: "/8.webp",
     },
     {
-      title:
-        "This is the best for future income — future income is the best.",
+      title: "This is the best for future income — future income is the best.",
       author: "Kevin Woofe",
       source: "The New York Times",
       image: "/7.webp",
@@ -51,15 +76,15 @@ const News = () => {
             className="w-full max-w-[300px] sm:max-w-[350px] md:max-w-[500px] object-contain"
           >
             <h2
-            className="text-[32px] sm:text-[40px] md:text-[60px] lg:text-[100px]  font-extrabold uppercase text-left tracking-tighter leading-none"
-            style={{
-              color: "white",
-              WebkitTextStroke: "3px black", // outline
-              textStroke: "3px black", // fallback
-            }}
-          >
-           Word on the Igloo
-          </h2>
+              className="text-[32px] sm:text-[40px] md:text-[60px] lg:text-[100px]  font-extrabold uppercase text-left tracking-tighter leading-none"
+              style={{
+                color: "white",
+                WebkitTextStroke: "3px black", // outline
+                textStroke: "3px black", // fallback
+              }}
+            >
+              Word on the Igloo
+            </h2>
           </motion.div>
           <img
             src="3.png"
@@ -69,7 +94,14 @@ const News = () => {
         </div>
 
         {/* News Slider */}
-        <div className="overflow-x-auto pb-4 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+        <div
+          className="overflow-x-auto  pb-4 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
+          ref={scrollRef}
+          onMouseDown={handleMouseDown}
+          onMouseLeave={handleMouseLeave}
+          onMouseUp={handleMouseUp}
+          onMouseMove={handleMouseMove}
+        >
           <div className="flex gap-5 sm:gap-6 md:gap-8 min-w-max">
             {articles.map((article, index) => (
               <motion.div

@@ -7,7 +7,7 @@ import Tiles from "@/components/Tiles";
 
 export default function Index() {
   return (
-    <div className="bg-pudgy-sky min-h-screen">
+    <div className="">
       <Hero/>
       <Intro/>
       <Tiles/>

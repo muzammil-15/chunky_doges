@@ -3,13 +3,14 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="relative h-[800px] sm:h-[1000px] bg-gradient-to-r from-[#0179E7] to-[#0086F8] pt-[90px]  md:pt-[137px]  overflow-hidden">
+    <section className="relative h-[800px] sm:h-[1000px] bg-gradient-to-r  overflow-hidden">
       {/* Background Image */}
       <img
         src="/herobg.jpg"
         alt=""
-        className="absolute top-[100px] md:top-[312px] left-0 w-full h-[700px]  sm:h-[844px] object-cover "
+        className="absolute   left-0 w-full  h-full object-cover "
       />
+      <div className="absolute bg-[#0c0d0d3e] w-full h-full left-0 top-0"></div>
 
       {/* Penguin Scene */}
       <div className="absolute flex items-end justify-center bottom-0 left-1/2  -translate-x-1/2 w-full max-w-[1078px] h-[400px] px-4">
